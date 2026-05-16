@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Bestow Security Services</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="assets/logo.png" type="image/png">
+</head>
+<body>
+
+<nav id="navbar">
+<div class="logo">
+<a href="index.html"><img src="assets/logo.png" alt="Bestow Security Services"></a>
+</div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html" class="active">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero page-hero">
+<div class="hero-content">
+<span class="tag">GET IN TOUCH</span>
+<h1>Contact Us</h1>
+<p>Security services across Bangalore — with 24&times;7 support, quick response teams, and a team that is there when it matters most.</p>
+</div>
+</section>
+
+<section class="about-page" id="contact">
+<div class="container">
+
+<h2>Reach Us</h2>
+<p class="section-intro">Send a message and we will get back to you promptly. For urgent site support, call us directly.</p>
+
+<div class="contact-details">
+<div class="about-card">
+<h3>Contact Details</h3>
+<p><a href="mailto:info@bestowsecurity.com">info@bestowsecurity.com</a></p>
+<p><a href="tel:9663391321">+91 96633 91321</a></p>
+<p>Bestow Security Services, Bangalore</p>
+</div>
+<div class="about-card">
+<h3>How We Support Clients</h3>
+<ul>
+<li>24&times;7 support and backend coordination</li>
+<li>Daily visits and customer meetings</li>
+<li>Quick Response Teams for on-site issues</li>
+<li>Surprise checks and night surveillance</li>
+</ul>
+</div>
+</div>
+
+<div class="contact-grid">
+<form id="contactForm" class="contact-form" onsubmit="handleContactSubmit(event)">
+<label>
+<span>Name</span>
+<input type="text" id="contactName" name="name" required>
+</label>
+<label>
+<span>Email</span>
+<input type="email" id="contactEmail" name="email" required>
+</label>
+<label>
+<span>Phone</span>
+<input type="tel" id="contactPhone" name="phone">
+</label>
+<label>
+<span>Message</span>
+<textarea id="contactMessage" name="message" rows="5" required></textarea>
+</label>
+<div class="form-actions">
+<button type="submit" class="btn-red">Send Message</button>
+</div>
+</form>
+<div class="contact-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.350358874384!2d77.645602!3d12.8851784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15393a5c3159%3A0xdf2a84eca231645b!2sBestow%20Security%20Services!5e0!3m2!1sen!2sin!4v1778945372345!5m2!1sen!2sin" style="border:0;width:100%;height:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+
+</div>
+</section>
+
+<footer class="site-footer">
+<div class="container footer-grid">
+<div class="footer-links">
+<h4>Quick Links</h4>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="footer-legal">
+<h4>Legal</h4>
+<ul>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li><a href="terms.html">Terms of Service</a></li>
+<li><a href="sitemap.html">Sitemap</a></li>
+</ul>
+</div>
+<div class="footer-contact">
+<h4>Contact</h4>
+<p><a href="mailto:info@bestowsecurity.com">info@bestowsecurity.com</a></p>
+<p><a href="tel:9663391321">+91 96633 91321</a></p>
+</div>
+</div>
+<div class="footer-bottom">
+<small>&copy; <span id="currentYear"></span> Bestow Security Services. All rights reserved.</small>
+</div>
+</footer>
+
+<script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>
